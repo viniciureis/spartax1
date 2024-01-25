@@ -1,0 +1,102 @@
+
+ 
+
+@media( min-width: 300px) and (max-width:500px) {
+ 
+ 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+    .cabecalho nav li a{
+      font-size: 9px;
+      padding: 10px;
+      display: flex;
+  
+    
+    
+    }
+    .cabecalho{
+      margin-left: -100px;
+      padding: 0px;
+    }
+  .fundo,.fle,.fundo{
+    display: flex;
+  flex-direction: column;
+  }
+  .imf2{
+    margin-top: 200px;
+  }
+  .imf4{
+    margin-left: 50px;
+  }
+  .fundo{
+    height: 2000px;
+  }
+  .grid{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #carouselExampleControlsNoTouching{
+    display: none;
+  }
+  .man{
+    margin-left: 5px;
+    height: 200px;
+  }
+  .grid3
+  {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+  }
+  .mario{
+    display: none;
+  }
+ .grid{
+  display: flex;
+  flex-direction: column-reverse;
+ }
+ .flex{
+  display: flex;
+  padding-top: 5px;
+ flex-direction: column;
+ padding-bottom: 5px;
+ }
+ #footer{
+  text-align: center;
+  padding-left: 5px;
+ }
+ .socio{
+  width: 350px;
+  margin-left: 0px;
+ }
+ .grid4{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 10px;
+ }
+ .conheça{
+  margin-left: 0px;
+ }
+ .buttom-float{
+  margin-left: 10px;
+ }
+ .almeidao{
+  width: 50%;
+ }
+ .marg{
+  margin-left: 0px;
+ }
+ .acessorios{
+  width: 359px;
+margin-bottom: 30px;
+
+}
+.acessorios2{
+  width: 390px;
+  margin-left: -10px;
+  height: 330px;
+  
+}
+  }
