@@ -302,7 +302,14 @@ body{
     }
     .grid4{
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr ;
+    }
+    .colum{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .tamanho{
+      width: 80%;
     }
 .red{
   background-color: red;
