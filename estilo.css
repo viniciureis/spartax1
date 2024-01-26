@@ -18,7 +18,10 @@ body{
     align-items: center;
     height: 100%;
   }
-  
+  .container{
+    max-width: 1024px;
+   
+  }
   .cabecalho nav li a{
     font-weight: bold;
     color: white;
@@ -310,12 +313,15 @@ body{
 .acessorios{
   width: 659px;
 margin-bottom: 30px;
+margin: 0 auto;
 
 }
+
 .acessorios2{
   width: 690px;
   margin-left: -10px;
   height: 330px;
+  margin: 0 auto;
   
 }
     @media( min-width: 300px) and (max-width:500px){
