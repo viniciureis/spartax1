@@ -332,6 +332,9 @@ margin: 0 auto;
   margin: 0 auto;
   
 }
+a{
+  text-decoration:none;
+}
 .pad{
   padding-bottom: 20px;
   color: white;
