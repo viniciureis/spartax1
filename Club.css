@@ -1,0 +1,21 @@
+header{
+    background-color: black;
+    margin-left: -8px;
+    background: rgb(255, 0, 0);
+    width: 98.75vw;
+    height: 60px;
+  
+  }
+  nav{
+    margin-top: -20px;
+  }
+  ul{
+    padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-self: flex-end;
+  justify-content: flex-end;
+  padding-right: 10px;
+  list-style: none;
+   
+  }
