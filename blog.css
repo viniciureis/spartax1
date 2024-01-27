@@ -2,7 +2,7 @@ header{
   background-color: black;
   margin-left: -8px;
   background: rgb(255, 0, 0);
-  width: 99.99vw;
+  width: 98.75vw;
   height: 60px;
 
 }
@@ -25,6 +25,18 @@ a{
   color: white;
 
 }
+.rank{
+  width: 103.2%;
+  border-radius: 10px;
+  margin-left: -10px;
+}
+.card{
+  background-color: grey;
+  width: 70%;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
 body{
   font-family: 'Poppins';
 }
@@ -34,4 +46,8 @@ font-size: 25px;
 }
 a:hover{
   color: blue;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
 }
