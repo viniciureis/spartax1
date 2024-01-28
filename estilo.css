@@ -332,6 +332,23 @@ margin: 0 auto;
   margin: 0 auto;
   
 }
+.grid33{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.card1{
+  box-shadow: 2px 2px 2px 2px black;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.jogos{
+  width: 100%;
+  padding-left: 2px;
+ border-top-left-radius: 30px;
+ border-top-right-radius: 30px;
+}
 a{
   text-decoration:none;
 }
