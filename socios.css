@@ -2,7 +2,7 @@ header{
     background-color: black;
     margin-left: -8px;
     background: rgb(255, 0, 0);
-    width: 98.75vw;
+    width: 99.96vw;
     height: 60px;
   
   }
@@ -23,3 +23,18 @@ header{
     text-decoration: none;
     color: white;
   }  
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .red{
+    background-color: rgb(255, 3, 3);
+    margin-left: -10px;
+  }
+  .pad{
+   margin-left: 30px;
+  }
+  .grid23{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+  }
