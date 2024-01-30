@@ -2,7 +2,7 @@ header{
     background-color: black;
     margin-left: -8px;
     background: rgb(255, 0, 0);
-    width: 99.96vw;
+    width: 98.76vw;
     height: 60px;
   
   }
@@ -37,4 +37,7 @@ header{
   .grid23{
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
+  }
+  .noticias{
+    width: 95%;
   }
