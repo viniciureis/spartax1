@@ -9,7 +9,7 @@ header{
   nav{
     margin-top: -20px;
   }
-  ul{
+   header ul{
     padding-top: 20px;
   display: flex;
   gap: 10px;
@@ -40,4 +40,25 @@ header{
   }
   .noticias{
     width: 95%;
+  }
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    padding-left: 20px;
+  gap: 30px;
+  }
+  ul{
+    list-style: none;
+  }
+   footer li+li{
+    padding-top: 20px;
+  }
+  footer{
+    width: 98.20vw;
+  }
+  footer a {
+    color: blue;
   }
