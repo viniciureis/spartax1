@@ -1,7 +1,7 @@
 header{
     background-color: black;
     margin-left: -8px;
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
     width: 98.76vw;
     height: 60px;
   
@@ -28,8 +28,11 @@ header{
     grid-template-columns: 1fr 1fr;
   }
   .red{
-    background-color: rgb(255, 3, 3);
+    background-color: rgb(0, 0, 0);
     margin-left: -10px;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
   }
   .pad{
    margin-left: 30px;
@@ -61,4 +64,29 @@ header{
   }
   footer a {
     color: blue;
+  }
+  .color{
+    background-color: yellow;
+    border-radius: 20px;
+    width: 70%;
+    padding: 20px;
+  }
+  .font2{
+    padding-left: 34px;
+  }
+  .sociedade{
+    width: 98.75vw;
+    margin-left: -8px;
+    height: 350px;
+    opacity: 55%;
+  
+  }
+  header a:hover{
+    color: blue;
+  }
+  .text{
+    color: white;
+    margin-top: -30px;
+    padding-left: 5px;
+    font-size: 20px;
   }
