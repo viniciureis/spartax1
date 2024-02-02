@@ -42,3 +42,25 @@ header{
   .ft1{
     width: 90%;padding-top: 20px;
   }
+  footer li+li{
+    padding-top: 20px;
+  }
+  footer{
+    width: 98.20vw;
+  }
+  footer a {
+    color: blue;
+  }
+
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    padding-left: 20px;
+  gap: 30px;
+  }
+  ul{
+    list-style: none;
+  }
