@@ -32,3 +32,13 @@ header{
     padding-left: 150px;
     padding-top: 50px;
   }
+  .mg{
+    padding-top: 40px;
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .ft1{
+    width: 90%;padding-top: 20px;
+  }
