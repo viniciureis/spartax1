@@ -9,7 +9,7 @@ header{
   nav{
     margin-top: -20px;
   }
-  ul{
+  header ul{
     padding-top: 20px;
   display: flex;
   gap: 10px;
@@ -37,4 +37,50 @@ header{
   .grid2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    padding-left: 20px;
+  gap: 30px;
+  }
+  ul{
+    list-style: none;
+  }
+   footer li+li{
+    padding-top: 20px;
+  }
+  footer{
+    width: 98.20vw;
+  }
+  footer a {
+    color: blue;
+  }
+  .color{
+    background-color: yellow;
+    border-radius: 20px;
+    width: 70%;
+    padding: 20px;
+  }
+  .font2{
+    padding-left: 34px;
+  }
+  .sociedade{
+    width: 98.75vw;
+    margin-left: -8px;
+    height: 350px;
+    opacity: 55%;
+  
+  }
+  header a:hover{
+    color: blue;
+  }
+  .text{
+    color: white;
+    margin-top: -30px;
+    padding-left: 5px;
+    font-size: 20px;
   }
