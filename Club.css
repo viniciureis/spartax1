@@ -1,7 +1,7 @@
 header{
     background-color: black;
     margin-left: -8px;
-    background: rgb(255, 0, 0);
+    background: rgb(0, 0, 0);
     width: 98.75vw;
     height: 60px;
   
@@ -26,4 +26,15 @@ header{
   .grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .logo{
+    width: 50%;
+    padding-left: 150px;
+  }
+  .patrocinadores{
+    width: 20%;
+  }
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
