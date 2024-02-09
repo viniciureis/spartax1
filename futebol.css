@@ -2,7 +2,7 @@ header{
     background-color: black;
     margin-left: -8px;
     background: rgb(0, 0, 0);
-    width: 98.76vw;
+    width: 99.85vw;
     height: 60px;
   
   }
@@ -59,3 +59,23 @@ header{
   
   #prev { left: 10px; }
   #next { right: 10px; }
+  .flex{
+    display: flex;
+    gap: 20px;
+  justify-content: center;
+  }
+  .sub{
+background-color: rgb(255, 0, 0);
+padding-left: 50px;
+padding-right: 50px;
+  }
+  .bc{
+    background-image: url(img/IMG_2622-removebg-preview.png);
+    position: relative;
+    background-attachment: fixed;
+    margin-left: -10px;
+
+    width: 100vw;
+    color: white;padding-bottom: 20px;
+    padding-top: 10px;
+  }
