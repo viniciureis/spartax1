@@ -2,7 +2,7 @@ header{
     background-color: black;
     margin-left: -8px;
     background: rgb(0, 0, 0);
-    width: 99.85vw;
+    width: 98.75vw;
     height: 60px;
   
   }
@@ -75,7 +75,7 @@ padding-right: 50px;
     background-attachment: fixed;
     margin-left: -10px;
 
-    width: 100vw;
+    width: 98.88vw;
     color: white;padding-bottom: 20px;
     padding-top: 10px;
   }
@@ -83,7 +83,7 @@ padding-right: 50px;
     padding-top: 50px;
   }
   footer{
-    width: 99.30vw;
+    width: 98.20vw;
   }
   footer a {
     color: blue;
@@ -99,4 +99,9 @@ padding-right: 50px;
   }
   ul{
     list-style: none;
+  }
+  .f5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
   }
