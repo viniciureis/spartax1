@@ -1,0 +1,99 @@
+header{
+    background-color: black;
+    margin-left: -8px;
+    background: rgb(0, 0, 0);
+    width: 98.75vw;
+    height: 60px;
+  
+  }
+  nav{
+    margin-top: -20px;
+  }
+   header ul{
+    padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-self: flex-end;
+  justify-content: flex-end;
+  padding-right: 10px;
+  list-style: none;
+   
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  } 
+  #slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  #prev, #next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  #prev { left: 10px; }
+  #next { right: 10px; }
+  .flex{
+    display: flex;
+    gap: 20px;
+  justify-content: center;
+  }
+  .sub{
+background-color: rgb(255, 0, 0);
+padding-left: 50px;
+padding-right: 50px;
+  }
+  .bc{
+    background-image: url(img/IMG_2622-removebg-preview.png);
+    position: relative;
+    background-attachment: fixed;
+    margin-left: -10px;
+
+    width: 98.88vw;
+    color: white;padding-bottom: 20px;
+    padding-top: 10px;
+  }
+  footer li+li{
+    padding-top: 50px;
+  }
+  footer{
+    width: 98.20vw;
+  }
+  footer a {
+    color: blue;
+  }
+  .grid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+    margin-left: -8px;
+    padding-left: 20px;
+  gap: 30px;
+  }
