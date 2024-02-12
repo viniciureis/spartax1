@@ -88,6 +88,13 @@ padding-right: 50px;
   footer a {
     color: blue;
   }
+  .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
   .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -96,4 +103,7 @@ padding-right: 50px;
     margin-left: -8px;
     padding-left: 20px;
   gap: 30px;
+  }
+  ul,li{
+    list-style: none;
   }
