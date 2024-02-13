@@ -1,7 +1,7 @@
 header{
   background-color: black;
   margin-left: -8px;
-  background: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
   width: 98.75vw;
   height: 60px;
 
@@ -50,4 +50,29 @@ a:hover{
 .grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
+}
+footer ul {
+  display: flex;
+  flex-direction: column;
+}
+footer li+li{
+  padding-top: 50px;
+}
+footer{margin-top: 20px;
+  width: 98.20vw;
+}
+footer a {
+  color: blue;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: black;
+  color: white;
+  margin-left: -8px;
+  padding-left: 20px;
+gap: 30px;
+}
+.font2{
+  margin-left: 50px;
 }
