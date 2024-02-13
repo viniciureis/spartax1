@@ -88,6 +88,10 @@ padding-right: 50px;
   footer a {
     color: blue;
   }
+
+  footer a:hover {
+    color: rgb(255, 0, 0);
+  }
   .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

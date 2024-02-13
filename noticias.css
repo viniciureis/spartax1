@@ -57,6 +57,9 @@ header{
   footer a {
     color: rgb(255, 255, 255);
   }
+  footer a:hover {
+    color: rgb(255, 0, 0);
+  }
 
   .grid3{
     display: grid;
