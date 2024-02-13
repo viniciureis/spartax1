@@ -92,7 +92,7 @@ padding-right: 50px;
   footer a:hover {
     color: rgb(255, 0, 0);
   }
-  
+
   .grid3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -107,4 +107,8 @@ padding-right: 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
     padding-top: 20px;
+  }
+ ul {
+    list-style: none;
+ 
   }
