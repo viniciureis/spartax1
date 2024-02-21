@@ -23,3 +23,15 @@ header{
     text-decoration: none;
     color: white;
   } 
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    padding-top: 20px;
+  }
+  .f5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  
